@@ -1,6 +1,6 @@
 body{
-  background: #f0f0f0;
-  margin:0px;
+  background: #f5f5f5;
+  margin: auto;
   font-family: verdana, 'Arai black', sans-serif;
 }
 
@@ -8,15 +8,22 @@ body{
 /* header */
 
 header{
-  background: orange;
+  width: auto;
+  background: #1a1a1a;
 }
 
-header .sub-title{
+.header{
+  width: 980px;
+  margin: auto;
+  /* background: #1a1a1a; */
+  color: white;
+}
+
+.header .sub-title{
   display: block;
   padding-top: 5px;
-  border-top: 1px solid black;
+  border-top: 1px solid white;
   font-size: 18px;
-  color: gray;
 }
 
 header h1{
@@ -27,7 +34,7 @@ header h1{
   font-weight: normal;
 }
 
-.menu{
+.sidebar{
   position: fixed;
   border: 1px solid black;
   background-color: white;
@@ -38,15 +45,45 @@ header h1{
   box-shadow: 10px 10px rgba(0, 0, 0, .3);
 }
 
+.sidebar a{
+  color: black;
+}
+
+.sideber a:hover{
+  color: red;
+}
+
 header p{
   margin: 5% auto;
   text-align: center;
 }
 
+main{
+  width: 980px;
+  margin: 30px auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
 
 /* contents */
-
 /* mein-contents */
+.title{
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 26px;
+  background: #777777;
+  color: white;
+  padding: 10px;
+}
+
+.name h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 
 .content{
   overflow: hidden;
@@ -55,61 +92,18 @@ header p{
   padding: 0px 0px 50px 0px;
 }
 
-.picture{
-  float: left;
-  margin: auto;
-}
+/* .remarks{
+float: left;
+margin-left: 20px;
+} */
 
-.remarks,
-.cars{
-  float: left;
-  margin-left: 20px;
-}
-
-.cars{
-  width: 45%;
-  height: 70%;
-  overflow: scroll;
-}
-
-.remarks p,
-.cars p{
+/* .remarks p, {
   margin: 0;
-}
+} */
 
-/* sub-contents */
-
-.sub-content-a,
-.sub-content-b,
-.sub-content-c,
-.sub-content-d,
-.sub-content-e{
-  overflow: hidden;
-  width:50%;
-  height: 300px;
-  margin: 0 auto;
-  padding: 0px 0px 70px 0px;
+.mein-picture{
   float: left;
-  /* box-sizing: border-box;
-  border: 1px solid black; */
-}
-
-.sub-contents{
-  overflow: hidden;
-  width: 1400px;
   margin: auto;
-}
-
-.picture{
-  padding: 0px 0px 0px 30px;
-}
-
-/* twitter */
-
-.title{
-  text-align: center;
-  margin: 30px auto;
-  font-size: 26px;
 }
 
 .name{
@@ -122,13 +116,60 @@ header p{
   font-weight: normal;
 }
 
+
+/* sub-contents */
+
+/* .picture{
+  float: left;
+  margin: auto;
+  padding: 0px 10px;
+} */
+
+.cars{
+  float: right;
+  margin: auto;
+  width: 55%;
+  /* height: 70%; */
+  overflow: auto;
+  font-size: 14px;
+}
+
+.cars p{
+  margin: 0;
+}
+
+.sub-content-a,
+.sub-content-b,
+.sub-content-c,
+.sub-content-d,
+.sub-content-e{
+  overflow: hidden;
+  width:48%;
+  height: 360px;
+  margin: 1%;
+  /* padding: 0px 0px 150px 0px; */
+  float: left;
+  background: #c0c0c0;
+  border-radius: 5px;
+}
+
+.sub-contents{
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.sub-contents img{
+  padding: 0px 10px;
+  width: 190px;
+  height: 130px;
+}
+
+/* twitter */
 .section-title,
 .twitter p{
   margin: 0px;
-}
-
-.section-title{
-  font-size: 26px;
 }
 
 .twitter-follow-button{
@@ -137,36 +178,31 @@ header p{
 }
 
 .twitter{
-  border: 1px solid gray;
-  width: 550px;
-  margin: 50px 50px 100px 50px;
-  padding: 10px;
+  padding-left: 10px;
+  padding-bottom: 30px;
 }
 
 .contents{
-  width: 1400px;
+  width: 100%;
   margin: auto;
 }
 
-.sub-contents img{
-  width: 40%;
-  height: 60%;
-}
 
 /* footer */
 
 footer{
-  background: orange;
+  background: #1a1a1a;
   padding: 10px 0px;
   margin: 30px 0px 0px 0px;
   text-align:center;
   color: black;
+  color: white;
 }
 
-a:visited{
-  color: black;
+footer a:visited{
+  color: white;
 }
 
-a:hover{
-  color: ;
+footer a:hover{
+  color: #c0c0c0;
 }
