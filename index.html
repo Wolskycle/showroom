@@ -6,15 +6,18 @@
     <meta name="discription" content="プログラミングの学習を兼ねた私の車歴紹介です。">
     <link rel="icon" href="icon.png">
     <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" media="(min-width:980px)" href="css/index.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
 
   <body>
     <header>
-      <!-- タイトル -->
-      <h1>ウォルの車歴史紹介
-      <span class="sub-title">メインはWebプログラミングの練習です。</span></h1>
-      <div class="menu">
+      <div class="header">
+        <!-- タイトル -->
+        <h1>ウォルの車歴史紹介
+          <span class="sub-title">メインはWebプログラミングの練習です。</span></h1>
+      </div>
+      <div class="sidebar">
         <p><a href="#TOP">TOP</a></p>
         <p><a href="#new">現在の愛車</a></p>
         <p><a href="#old">過去の愛車</a></p>
@@ -22,108 +25,109 @@
       </div>
     </header>
 
-
-    <section class="mein-contents" id="new">
-      <h1 class="title">現在の愛車</h1>
-    </section>
+    <main>
+      <section class="mein-contents" id="new">
+        <h1 class="title">現在の愛車</h1>
+      </section>
 
       <section class="content">
         <div class="name">
           <h1>- SUZUKI -<br>- スイフトスポーツ -<br>【ZC33S】</h1>
         </div>
-        <img src="swift.jpg" width:"500"; height="370" class="picture" alt="swift-picture">
+        <img src="swift.jpg" width:"500"; height="370" class="mein-picture" alt="swift-picture">
         <div class="remarks">
           <p>所有期間：2017年12月〜<br>
-          排気量他：1.5L Turbo / MT / RHD<br>
-          変更箇所：今後記載予定</p>
+            排気量他：1.5L Turbo / MT / RHD<br>
+            変更箇所：今後記載予定</p>
         </div>
       </section>
 
-      <hr>
+      <!-- <hr> -->
 
       <section class="sub-contents" id="old">
         <h1 class="title">過去の愛車</h1>
-        <div class="flex">
+        <!-- <div class="flex"> -->
+        <section class="sub-content-a">
+          <div class="name">
+            <h1>- MITSUBISHI -<br>- ミニカ -<br>【H42V】</h1>
+          </div>
+          <img src="minika.jpg" width:"250"; height="175" class="picture" alt="minika-picture">
+          <div class="cars">
+            <p>所有期間：2016年10月<br>
+              　　　　　　　　　〜2017年12月<br>
+              排気量他：0.6L N/A / MT / RHD<br>
+              変更箇所：サスペンション<br>
+              　　　　　ホイール<br>
+              　　　　　ステアリング<br>
+              　　　　　ナビゲーション<br>
+              　　　　　スピーカー<br>
+              　　　　　シート<br>
+              　　　　　シフトノブ<br>
+              　　　　　ヘッドライトHID</p>
+          </div>
+        </section>
 
-          <section class="sub-content-a">
-            <div class="name">
-              <h1>- MITSUBISHI -<br>- ミニカ -<br>【H42V】</h1>
-            </div>
-            <img src="minika.jpg" width:"250"; height="175" class="picture" alt="minika-picture">
-            <div class="cars">
-              <p>所有期間：2016年10月〜2017年12月<br>
-                排気量他：0.6L N/A / MT / RHD<br>
-                変更箇所：サスペンション<br>
-                　　　　　ホイール<br>
-                　　　　　ステアリング<br>
-                　　　　　ナビゲーション<br>
-                　　　　　スピーカー<br>
-                　　　　　シート<br>
-                　　　　　シフトノブ<br>
-                　　　　　ヘッドライトHID</p>
-            </div>
-          </section>
+        <section class="sub-content-b">
+          <div class="name">
+            <h1>- BMW -<br>- 320i クーペ -<br>【WA20】</h1>
+          </div>
+          <img src="320i.jpeg" width:"250"; height="175" class="picture" alt="bmw-picture">
+          <div class="cars">
+            <p>所有期間：2015年6月〜2016年10月<br>
+              排気量他：2.0L N/A / MT / LHD<br>
+              変更箇所：今後記載予定</p>
+          </div>
+        </section>
 
-          <section class="sub-content-b">
-            <div class="name">
-              <h1>- BMW -<br>- 320i クーペ -<br>【WA20】</h1>
-            </div>
-            <img src="320i.jpeg" width:"250"; height="175" class="picture" alt="bmw-picture">
-            <div class="cars">
-              <p>所有期間：2015年6月〜2016年10月<br>
-                排気量他：2.0L N/A / MT / LHD<br>
-                変更箇所：今後記載予定</p>
-            </div>
-          </section>
-
-          <section class="sub-content-c">
-            <div class="name">
-              <h1>- MITSUBISHI -<br>- ランサーエボリューションⅨ -<br>【CT9A】</h1>
-            </div>
-            <img src="evo-blue.jpeg" width:"250"; height="175" class="picture" alt="evo-vlue-picture">
-            <div class="cars">
-              <p>所有期間：2014年11月〜2015年6月<br>
+        <section class="sub-content-c">
+          <div class="name">
+            <h1>- MITSUBISHI -<br>- ランサーエボリューションⅨ -<br>【CT9A】</h1>
+          </div>
+          <img src="evo-blue.jpeg" width:"250"; height="175" class="picture" alt="evo-vlue-picture">
+          <div class="cars">
+            <p>所有期間：2014年11月〜2015年6月<br>
               排気量他：2.0L Turbo / MT / RHD<br>
               変更箇所：今後記載予定</p>
-            </div>
-          </section>
+          </div>
+        </section>
 
-          <section class="sub-content-d">
-            <div class="name">
-              <h1>- MITSUBISHI -<br>- ランサーエボリューションⅨ -<br>【CT9A】</h1>
-            </div>
-            <img src="evo-white.jpg" width:"250"; height="175" class="picture" alt="evo-white-picture">
-            <div class="cars">
-              <p>所有期間：2013年8月〜2014年10月<br>
+        <section class="sub-content-d">
+          <div class="name">
+            <h1>- MITSUBISHI -<br>- ランサーエボリューションⅨ -<br>【CT9A】</h1>
+          </div>
+          <img src="evo-white.jpg" width:"250"; height="175" class="picture" alt="evo-white-picture">
+          <div class="cars">
+            <p>所有期間：2013年8月〜2014年10月<br>
               排気量他：2.0L Turbo / MT / RHD<br>
               変更箇所：今後記載予定</p>
-            </div>
-          </section>
+          </div>
+        </section>
 
-          <section class="sub-content-e">
-            <div class="name">
-              <h1>- MITSUBISHI -<br>- コルトラリーアート Version-R Special -<br>【Z27AG】</h1>
-            </div>
-            <img src="colt.jpg" width:"250"; height="175" class="picture" alt="colt-picture">
-            <div class="cars">
-              <p>所有期間：2012年6月〜2013年8月<br>
+        <section class="sub-content-e">
+          <div class="name">
+            <h1>- MITSUBISHI -<br>- コルトラリーアート Version-R Special -<br>【Z27AG】</h1>
+          </div>
+          <img src="colt.jpg" width:"250"; height="175" class="picture" alt="colt-picture">
+          <div class="cars">
+            <p>所有期間：2012年6月〜2013年8月<br>
               排気量他：1.5L Turbo / MT / RHD<br>
               変更箇所：今後記載予定</p>
-            </div>
-          </section>
-        </div>
+          </div>
+        </section>
+          <!-- </div> -->
       </section>
 
-      <hr>
+      <!-- <hr> -->
 
       <section class="contents">
+        <h1 class="title" id="twitter">Twitter</h1>
         <div class="twitter">
-          <h1 class="section-title" id="twitter">Twitter</h1>
           <p>ツイートの頻度は低いですが、よろしければフォローお待ちしております。</p>
           <a href="https://twitter.com/Wolskycle?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Wolskycle</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           <a class="twitter-timeline" href="https://twitter.com/Wolskycle?ref_src=twsrc%5Etfw" width="300" height="500">Tweets by Wolskycle</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       </section>
+    </main>
 
 
     <footer>
