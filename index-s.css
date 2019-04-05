@@ -1,0 +1,203 @@
+body{
+  background: #f5f5f5;
+  margin: auto;
+  font-family: verdana, 'Arai black', sans-serif;
+}
+
+
+/* header */
+
+header{
+  width: auto;
+  background: #1a1a1a;
+  padding-bottom: 30px;
+}
+
+.header{
+  width: 640px;
+  margin: auto;
+  color: white;
+}
+
+.header .sub-title{
+  display: block;
+  padding-top: 5px;
+  border-top: 1px solid white;
+  font-size: 18px;
+}
+
+header h1{
+  margin: 0px;
+}
+
+.sub-title{
+  font-weight: normal;
+}
+
+.sidebar{
+  width: 640px;
+  margin: auto;
+}
+
+.sidebar p{
+  float: left;
+  width: 25%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid white;
+  background: black;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.sidebar a{
+  color: white;
+}
+
+.sideber a:hover{
+  color: red;
+}
+
+header p{
+  margin: 5% auto;
+  text-align: center;
+}
+
+main{
+  width: 640px;
+  margin: 30px auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+
+/* contents */
+/* mein-contents */
+.title{
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 30px;
+  background: #777777;
+  color: white;
+  padding: 10px;
+}
+
+.name h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+.content{
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0px 0px 50px 0px;
+}
+
+.content img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.remarks{
+  font-size: 20px;
+}
+
+.mein-picture{
+  float: left;
+  margin: auto;
+}
+
+.name h1{
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+
+/* sub-contents */
+
+.cars{
+  margin: auto;
+  width: 80%;
+  overflow: auto;
+  font-size: 20px;
+}
+
+.cars p{
+  margin: 0;
+}
+
+.sub-content-a,
+.sub-content-b,
+.sub-content-c,
+.sub-content-d,
+.sub-content-e{
+  overflow: hidden;
+  width:90%;
+  margin: 15px auto;
+  padding: 15px 0;
+  background: #c0c0c0;
+  border-radius: 5px;
+}
+
+.sub-contents{
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.sub-contents img{
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 80%;
+  height: 80%;
+}
+
+/* twitter */
+.section-title,
+.twitter p{
+  margin: 0px;
+}
+
+.twitter-follow-button{
+  float: left;
+  margin: 5px 10px;
+}
+
+.twitter{
+  padding: 0 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.contents{
+  width: 100%;
+  margin: auto;
+}
+
+
+/* footer */
+
+footer{
+  background: #1a1a1a;
+  padding: 10px 0px;
+  margin: 30px 0px 0px 0px;
+  text-align:center;
+  color: black;
+  color: white;
+}
+
+footer a:visited{
+  color: white;
+}
+
+footer a:hover{
+  color: #c0c0c0;
+}
