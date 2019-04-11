@@ -38,14 +38,14 @@ header h1{
 .sidebar{
   max-width: 1000px;
   min-width: 530px;
-  margin: auto;
+  margin: 0 auto 30px;
 }
 
 .sidebar p{
   float: left;
   width: 25%;
-  height: 30px;
-  line-height: 30px;
+  height: 60px;
+  line-height: 60px;
   border: 1px solid white;
   background: black;
   box-sizing: border-box;
@@ -54,12 +54,13 @@ header h1{
 
 .sidebar a{
   color: white;
-  /* font-size: 20px; */
+  font-size: 20px;
+  text-decoration: none;
 }
 
-.sideber a:hover{
+/* .sideber a:hover{
   color: red;
-}
+} */
 
 header p{
   margin: 5% auto;
