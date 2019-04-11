@@ -14,7 +14,8 @@ header{
 }
 
 .header{
-  width: 640px;
+  max-width: 1000px;
+  min-width: 530px;
   margin: auto;
   color: white;
 }
@@ -35,7 +36,8 @@ header h1{
 }
 
 .sidebar{
-  width: 640px;
+  max-width: 1000px;
+  min-width: 530px;
   margin: auto;
 }
 
@@ -52,6 +54,7 @@ header h1{
 
 .sidebar a{
   color: white;
+  /* font-size: 20px; */
 }
 
 .sideber a:hover{
@@ -64,7 +67,8 @@ header p{
 }
 
 main{
-  width: 640px;
+  max-width: 1000px;
+  min-width: 530px;
   margin: 30px auto;
   border-left: 1px solid black;
   border-right: 1px solid black;
