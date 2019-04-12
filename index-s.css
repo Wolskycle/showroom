@@ -4,6 +4,8 @@ body{
   font-family: verdana, 'Arai black', sans-serif;
 }
 
+
+
 /* @media screen and (max-width:1000px){
   br{
     display: none;
@@ -14,6 +16,13 @@ body{
   display: none;
 }
 
+.pc{
+  background: yellow;
+  color: red;
+  font-weight: bold;
+  margin: 0;
+  font-size: 20px;
+}
 
 
 /* header */
