@@ -13,25 +13,22 @@ header{
 }
 
 .header{
-  width: 980px;
+  width: 1200px;
   margin: auto;
   /* background: #1a1a1a; */
   color: white;
 }
 
-.header .sub-title{
+.sub-title{
   display: block;
   padding-top: 5px;
   border-top: 1px solid white;
   font-size: 18px;
+  font-weight: normal;
 }
 
 header h1{
   margin: 0px;
-}
-
-.sub-title{
-  font-weight: normal;
 }
 
 .sidebar{
@@ -59,7 +56,7 @@ header p{
 }
 
 main{
-  width: 980px;
+  width: 1200px;
   margin: 30px auto;
   border-left: 1px solid black;
   border-right: 1px solid black;
@@ -92,15 +89,6 @@ main{
   padding: 0px 0px 50px 0px;
 }
 
-/* .remarks{
-float: left;
-margin-left: 20px;
-} */
-
-/* .remarks p, {
-  margin: 0;
-} */
-
 .mein-picture{
   float: left;
   margin: auto;
@@ -117,6 +105,35 @@ margin-left: 20px;
   font-weight: normal;
 }
 
+.content p{
+  margin: 0;
+}
+
+.content ul{
+  margin: -24px 0 0 0;
+  padding-left: 76px;
+  padding-right: 20px;
+  list-style: none;
+  /* width: 55%; */
+}
+
+
+.content li:nth-child(even),
+.content li:last-child{
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.content li:last-child{
+  text-align: right;
+  padding: 0;
+}
+
+
+.content i{
+  transform: rotate(90deg);
+}
 
 /* sub-contents */
 
@@ -128,9 +145,8 @@ margin-left: 20px;
 
 .cars{
   float: right;
-  margin: auto;
-  width: 55%;
-  /* height: 70%; */
+  margin: 0;
+  width: 48%;
   overflow: auto;
   font-size: 14px;
 }
@@ -139,14 +155,10 @@ margin-left: 20px;
   margin: 0;
 }
 
-.sub-content-a,
-.sub-content-b,
-.sub-content-c,
-.sub-content-d,
-.sub-content-e{
+.sub-content{
   overflow: hidden;
   width:48%;
-  height: 360px;
+  height: 390px;
   margin: 1%;
   /* padding: 0px 0px 150px 0px; */
   float: left;
@@ -163,9 +175,38 @@ margin-left: 20px;
 
 .sub-contents img{
   padding: 0px 10px;
-  width: 190px;
-  height: 130px;
+  width: 48%;
+  height: 48%;
+  /* height: 130px; */
 }
+
+.sub-content ul{
+  margin: -21px 0 0 0;
+  padding-left: 70px;
+  padding-right: 20px;
+  list-style: none;
+  /* width: 55%; */
+}
+
+
+.sub-content li:nth-child(even),
+.sub-content li:last-child{
+  padding-left: 30px;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.sub-content li:last-child{
+  text-align: right;
+  padding: 0;
+}
+
+
+.sub-content i{
+  transform: rotate(90deg);
+}
+
+
 
 /* twitter */
 .section-title,
