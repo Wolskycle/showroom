@@ -4,6 +4,9 @@ body{
   font-family: verdana, 'Arai black', sans-serif;
 }
 
+.pc{
+  display: none;
+}
 
 /* header */
 
